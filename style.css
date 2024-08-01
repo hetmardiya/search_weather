@@ -21,12 +21,17 @@
 img{
     width: 10rem;
     height: 10rem;
-    margin: 2rem 0rem 3rem 0rem;
+    margin: 2rem 0rem 1rem 0rem;
 }
 .emoji , .header{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+}
+.condition{
+    display: flex;
+    margin-bottom: 1rem;
 }
 .header{
     margin-top: 2rem;
